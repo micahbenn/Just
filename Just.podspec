@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Just"
-  s.version      = "0.7.1"
+  s.version      = "0.7.2"
   s.summary      = "Swift HTTP for Humans"
 
   s.description  = <<-DESC
@@ -36,11 +36,11 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "3.0"
 
   s.source       = {
-    :git => "https://github.com/JustHTTP/Just.git",
+    :git => "https://github.com/micahbenn/Just",
     :tag => "#{s.version}"
   }
 
   s.source_files  = "Just", "Sources/**/*.{swift}"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
-  s.swift_version = '4.2'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
+  s.swift_version = '5.0'
 end
